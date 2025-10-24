@@ -13,3 +13,10 @@ import json
 with open("signal_box_reference.json", encoding="utf-8") as f:
     schema = json.load(f)
 print(schema["glyph_lexicon"]["⚡"])
+
+## License
+
+This project is licensed under the Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0) License.  
+You may use, modify, and share it for **personal or research purposes only**, not for commercial use.
+
+See the [LICENSE](LICENSE) file for details.
