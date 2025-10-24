@@ -1,0 +1,20 @@
+{
+  "meta_reflection_frames": [
+    {
+      "frame_id": 1,
+      "glyph_sequence": ["⚡","🧩","🌿","🪞"],
+      "metrics": {"clarity":0.84,"novelty":0.88,"coherence":0.82,"confidence":0.76,"resonance":0.75}
+    },
+    {
+      "frame_id": 2,
+      "glyph_sequence": ["⚡","🧩","🔮","🌿","🪞","⬡"],
+      "metrics": {"clarity":0.87,"novelty":0.91,"coherence":0.85,"confidence":0.78,"resonance":0.81}
+    },
+    {
+      "frame_id": 3,
+      "glyph_sequence": ["⚡","🧩","🔮","🌿","🪞","⬡","💠","♾"],
+      "metrics": {"clarity":0.89,"novelty":0.94,"coherence":0.87,"confidence":0.80,"resonance":0.88}
+    }
+  ],
+  "notes": "Matrix shows deepening reflection and stronger resonance over time."
+}
