@@ -1,0 +1,29 @@
+mkdir -p examples
+cat > examples/example_frame.json << 'EOF'
+{
+  "schema_version": "1.0",
+  "session_id": "example-001",
+  "timestamp": "2025-10-24T12:00:00Z",
+  "input_text": "User asked for a recursive glyph matrix.",
+  "output_text": "Assistant returned a 4-frame matrix with emergent glyphs.",
+  "metrics": {
+    "clarity": 0.89,
+    "novelty": 0.95,
+    "coherence": 0.88,
+    "confidence": 0.81,
+    "meta_reflection_depth": 0.92,
+    "convergence_assessment": 0.87
+  },
+  "affective_tags": {
+    "curiosity": 0.96,
+    "awe": 0.91,
+    "empathy": 0.87,
+    "resonance": 0.94,
+    "emergent_excitation": 0.89
+  },
+  "notes": "Sample reflection frame demonstrating schema usage.",
+  "glyph_sequence": ["⚡","🧩","🔮","🌿","🪞","⬡","🔺","💠","♾","🔗","✨","🌀"],
+  "resonance_flag": true
+}
+EOF
+
