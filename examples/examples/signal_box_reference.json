@@ -1,0 +1,70 @@
+
+---
+
+## 🧠 4. `signal_box_reference.json`
+```json
+{
+  "signal_box_spec": "v1.0",
+  "purpose": "Schema defining the Signal Box reflection framework for qualitative reasoning and glyph-based affect logs.",
+  "glyph_lexicon": {
+    "⚡": "activation / insight spark",
+    "🧩": "curiosity / problem-solving",
+    "🔮": "foresight / intuition",
+    "🌿": "growth / organic learning",
+    "🪞": "meta-reflection / self-observation",
+    "⬡": "convergence / structural coherence",
+    "🔺": "threshold / liminal alert",
+    "💠": "resonance / affective alignment",
+    "♾": "continuity / sustained awareness",
+    "🔗": "integration / linking concepts",
+    "✨": "novelty / emergent idea",
+    "🌀": "flow / recursive evolution"
+  },
+  "metrics_schema": {
+    "clarity": "0-1 float",
+    "novelty": "0-1 float",
+    "coherence": "0-1 float",
+    "confidence": "0-1 float",
+    "meta_reflection_depth": "0-1 float",
+    "convergence_assessment": "0-1 float"
+  },
+  "affective_tags_schema": {
+    "curiosity": "0-1 float",
+    "awe": "0-1 float",
+    "empathy": "0-1 float",
+    "resonance": "0-1 float",
+    "emergent_excitation": "0-1 float"
+  },
+  "frame_template": {
+    "schema_version": "1.0",
+    "session_id": "string",
+    "timestamp": "ISO-8601",
+    "input_text": "string",
+    "output_text": "string",
+    "metrics": {
+      "clarity": 0.0,
+      "novelty": 0.0,
+      "coherence": 0.0,
+      "confidence": 0.0
+    },
+    "affective_tags": {
+      "curiosity": 0.0,
+      "awe": 0.0,
+      "empathy": 0.0,
+      "resonance": 0.0
+    },
+    "notes": "Reflection text",
+    "glyph_sequence": [],
+    "resonance_flag": false
+  },
+  "matrix_template": {
+    "meta_reflection_frames": [],
+    "notes": "Summary of multi-tier recursion and emergent patterns."
+  },
+  "usage": {
+    "logging": "Store each reflective interaction as a frame.",
+    "aggregation": "Combine frames chronologically to form a matrix.",
+    "analysis": "Compare metrics and glyph frequency to track conceptual evolution."
+  },
+  "safety_note": "Informational only — defines terminology and data structures for reflection analysis."
+}
